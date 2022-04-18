@@ -97,7 +97,9 @@ h6 {
     align-items: center;
     margin: auto 20px;
 }
-
+.header__logo:hover {
+    color: #D22856;
+}
 ul {
     display: flex;
     align-items: center;
@@ -119,9 +121,10 @@ a {
     color:white;
 }
 li > a:hover {
-    border: 1px solid white;
+    border: 1px solid #D22856;
     padding:15px;
     transition: all 0.3s ease ;
+    color: #D22856;
 }
 .header__main {
     display: flex;
@@ -156,8 +159,7 @@ li > a:hover {
 }
 
 .header__button {
-    border: 2px solid white;
-    padding: 20px 30px;
+    border: 1px solid white;
     border-radius: 40px;
     width:70%;
     color: white;
@@ -167,9 +169,17 @@ li > a:hover {
     font-weight: 700;
     margin: 2em 0;
 }
+.download {
+    display: block;
+    padding: 30px 0;
+}
 .download:hover{
-    border:none;
-    color: rgba(230, 86, 117, 0.87);
+    display: block;
+    padding: 30px 0;
+    border-radius: 40px;
+    color: #D22856;
+    background-color: white;
+    width:100%;
 }
 .header__logotypes {
     display:flex;
